@@ -2,9 +2,9 @@ pipeline{
     agent any
 
     stages{
-        stage('Hello'){
+        stage('Hello') {
             steps{
-                echo 'this is the groovy language syntex'
+                echo 'this is the groovy language syntax'
             }
         }
     }
